@@ -1,0 +1,21 @@
+.work-skeleton {
+  width: calc(100% / 3 - 5px);
+  height: 100px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background: linear-gradient(315deg, #d1d1d1, #ffffff, #d1d1d1, #ffffff);
+  background-size: 200% 200%;
+  animation: gradient-animation 7s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
